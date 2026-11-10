@@ -5,3 +5,5 @@ plugins/edit-labs-ai/skills/motion-vox/exemplo/
 plugins/edit-labs-ai/skills/explicador-vox/exemplo/
 plugins/edit-labs-ai/skills/colagem-camadas/exemplos/
 plugins/edit-labs-ai/skills/colagem-camadas/assets/3d/
+__pycache__/
+*.pyc

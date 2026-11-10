@@ -87,7 +87,11 @@ if [ "$COLAGEM" = 1 ]; then
 fi
 
 echo "3. Biblioteca de assets (persistente)"
-if [ ! -d "$MOTION_VOX/biblioteca" ]; then mkdir -p "$MOTION_VOX"; cp -R "$MV_SKILL/biblioteca" "$MOTION_VOX/biblioteca"; fi
+# Neste repositório a biblioteca (63 MB de PNG) pode estar fora do clone: veja INSTALACAO.md na raiz.
+if [ ! -d "$MV_SKILL/biblioteca" ]; then
+  printf "  · biblioteca/ ausente nesta cópia do plugin: reponha com  ./instalar-editlabs-midia.sh  (raiz do repositório)\n"
+elif [ ! -d "$MOTION_VOX/biblioteca" ]; then mkdir -p "$MOTION_VOX"; cp -R "$MV_SKILL/biblioteca" "$MOTION_VOX/biblioteca"
+fi
 ok "$MOTION_VOX/biblioteca"
 
 if [ "$BAIXAR" = 1 ]; then
