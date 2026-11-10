@@ -1,0 +1,7 @@
+# Mídia pesada do plugin Edit Labs AI, fora do clone (o Arena limita o patch a ~128 MB).
+# Reinstale copiando de um clone do upstream (paullabs/edit-labs-ai): ver INSTALACAO.md na raiz.
+plugins/edit-labs-ai/skills/motion-vox/biblioteca/
+plugins/edit-labs-ai/skills/motion-vox/exemplo/
+plugins/edit-labs-ai/skills/explicador-vox/exemplo/
+plugins/edit-labs-ai/skills/colagem-camadas/exemplos/
+plugins/edit-labs-ai/skills/colagem-camadas/assets/3d/
